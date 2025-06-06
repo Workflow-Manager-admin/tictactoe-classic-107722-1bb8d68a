@@ -130,22 +130,12 @@ function TicTacToe() {
 function App() {
   return (
     <div className="app" style={{ minHeight: "100vh", background: "#fff" }}>
-      <nav className="navbar">
-        <div className="container">
-          <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-            <div className="logo">
-              <span className="logo-symbol" style={{ color: '#9be4ee' }}>*</span> KAVIA AI
-            </div>
-            <button className="btn" style={{ background: '#9be4ee' }}>Template Button</button>
-          </div>
-        </div>
-      </nav>
       {/* Centered game content */}
       <main>
         <div className="container">
           <div style={{
             display: "flex",
-            minHeight: "calc(100vh - 64px)",
+            minHeight: "100vh",
             alignItems: "center",
             justifyContent: "center"
           }}>
